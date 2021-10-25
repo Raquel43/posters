@@ -1,0 +1,165 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1rem;
+}
+
+/* Estilos submenú */
+/*--------------------------*/
+.submenu {
+    position: relative;
+   
+  }
+  .submenu #carrito {
+    display: none;
+  }
+  .submenu:hover #carrito {
+    display: block;
+    position: absolute;
+    right: 0;
+  
+    top: 100%;
+    z-index: 1000;
+    background-color: white;
+    padding: 20px;
+    min-height: 400px;
+    min-width: 300px;
+  }
+  .vacio {
+    padding: 10px;
+    background-color: crimson;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+  }
+  .u-full-width {
+    width: 100%;
+    box-sizing: border-box; }
+
+/* Tables
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+th,
+td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #E1E1E1; }
+th:first-child,
+td:first-child {
+  padding-left: 0; }
+th:last-child,
+td:last-child {
+  padding-right: 0; }
+
+
+/* Spacing
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+button,
+.button {
+  margin-bottom: 1rem; }
+input,
+textarea,
+select,
+fieldset {
+  margin-bottom: 1.5rem; }
+pre,
+blockquote,
+dl,
+figure,
+table,
+ul,
+ol{
+  margin-bottom: 2.5rem; }
+
+#submenu{
+  list-style: none;
+  text-align: right;
+}
+
+.fas{
+  color: red;
+  font-size: 20px;
+}
+
+#img-carrito{
+  color: blue;
+  font-size: 40px;
+}
+
+#buscador{
+  border: 1px solid black;
+}
+
+/* He creado un botón auxiliar para ir a la parte de abajo al buscar una palabra */
+#ir{
+  display: none;
+}
+
+#carouselExampleIndicators{
+  z-index: 1;
+}
+
+/* Footer */
+/*--------------------------*/
+#footer {
+  margin-top: 40px;
+  padding-top: 40px;
+  background-color: black;
+}
+#footer a {
+  display: block;
+ text-decoration: none;
+}
+
+#seccionfooter{
+  text-align: center;
+
+  padding-top: 20px;
+}
+
+#footer form{
+  color: white;
+}
+#footer .redes a{
+  display: inline;
+  padding-left: 10px;
+  font-size: 30px;
+}
+
+#insta, #blog{
+  color: #F76300;
+}
+#acepto{
+
+  font-size: 12px;
+  color: grey;
+}
+
+#copy{
+  font-weight: bolder;
+}
+
+.verde{
+  color: green;
+  font-size: 20px;
+}
+
+#footer .separacion a{
+  padding-bottom: 15px;
+}
+
+#listaFilm, #ListaSerie{
+  font-weight: bolder;
+}
+
+@media (max-width: 768px) {
+  .container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 1rem;
+}
+
+#footer.col a{
+  width: 100%;
+}
+
+}

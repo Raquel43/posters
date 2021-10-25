@@ -1,0 +1,120 @@
+{
+    "posters":{
+    "films":[
+        {
+            "id":1,
+            "name":"Alien",
+            "genre":"Sci-Fi",
+            "director":"Ridley Scott",
+            "duration":"116 min",
+            "cover":"alien.jpg",
+            "price":50,
+            "sinopsis":"De regreso a la Tierra, la nave de carga Nostromo interrumpe su viaje y despierta a sus siete tripulantes. El ordenador central, MADRE, ha detectado la misteriosa transmisión de una forma de vida desconocida..",
+            "year":"1979"
+        },
+        {
+            "id":2,
+            "name":"Frozen",
+            "genre":"Animación",
+            "director":"Chris Buck",
+            "duration":"98 min",
+            "cover":"poster-frozen.jpg",
+            "price":25,
+            "sinopsis":"Cuando una profecía condena a un reino a vivir un invierno eterno, la joven Anna, el temerario montañero Kristoff y el reno Sven emprenden un viaje épico en busca de Elsa",
+            "year":"2013"
+        },
+        {
+            "id":3,
+            "name":"Star Wars",
+            "genre":"Sci-Fi",
+            "director":"Aventuras",
+            "duration":"135 min",
+            "cover":"poster-star-wars.jpg",
+            "price":30,
+            "sinopsis":"Anakin Skywalker definitivamente se pasa al lado oscuro.",
+            "year":"2005"
+        },
+        {
+            "id":4,
+            "name":"Regreso al futuro",
+            "genre":"fantastico",
+            "director":"Robert Zemeckis",
+            "duration":"116 min",
+            "cover":"regreso.jpg",
+            "price":60,
+            "sinopsis":"El adolescente Marty McFly es amigo de Doc, un científico al que todos toman por loco. Cuando Doc crea una máquina para viajar en el tiempo, un error fortuito hace que Marty llegue a 1955..",
+            "year":"1985"
+        },
+        {
+            "id":5,
+            "name":"Terminator",
+            "genre":"Sci-Fi",
+            "director":"Jonathan Mostow",
+            "duration":"109 min",
+            "cover":"terminator.jpg",
+            "price":40,
+            "sinopsis":"Ha pasado una década desde que John Connor -Nick Stahl- salvara a la humanidad de la destrucción. En la actualidad John tiene 25 años y vive en la clandestinidad: no hay ninguna prueba documental de su existencia..",
+            "year":"2003"
+        }
+    ],
+
+    "series":[
+        {
+            "id":1,
+            "name":"El juego del calamar",
+            "genre":"Distopía",
+            "director":"Hwang Dong-hyuk",
+            "duration":"60 min",
+            "cover":"calamar.jpg",
+            "price":25,
+            "sinopsis":" 9 episodios. Cientos de jugadores con problemas económicos aceptan una extraña invitación para competir en juegos infantiles. Dentro les esperan un premio tentador y desafíos letales.",
+            "year":"2021"
+        },
+        {
+            "id":2,
+            "name":"Juego de Tronos",
+            "genre":"Fantasia Medieval",
+            "director":"David Benioff",
+            "duration":"55 min",
+            "cover":"poster-juego-tronos.jpg",
+            "price":30,
+            "sinopsis":"8 temporadas. 73 episodios. La historia se desarrolla en un mundo ficticio de carácter medieval donde hay Siete Reinos. ",
+            "year":"2011-2019"
+        },
+        {
+            "id":3,
+            "name":"Peaky Blinders",
+            "genre":"Mafia",
+            "director":"Steven Knight",
+            "duration":"60 min",
+            "cover":"poster-peaky-blinders.jpg",
+            "price":35,
+            "sinopsis":"5 temporadas. Una familia de gánsters asentada en Birmingham tras la Primera Guerra Mundial (1914-1918), dirige un local de apuestas hípicas. ",
+            "year":"2013"
+        },
+        {
+            "id":4,
+            "name":"The mandalorian",
+            "genre":"Sci-Fi",
+            "director":"Jon Favreau",
+            "duration":"40 min",
+            "cover":"poster-the-mandalorian.jpg",
+            "price":15,
+            "sinopsis":"Ambientada tras la caída del Imperio y antes de la aparición de la Primera Orden, la serie sigue los pasos de Mando, un cazarrecompensas perteneciente a la legendaria tribu de los mandalorianos..",
+            "year":"2019"
+        },
+        {
+            "id":5,
+            "name":"La casa de papel",
+            "genre":"Robos & Atracos",
+            "director":"Alex Pina",
+            "duration":"70 min",
+            "cover":"posterCasaPapel.jpg",
+            "price":45,
+            "sinopsis":"5 temporadas. Un misterioso personaje, que se hace llamar 'El Profesor', planea el mayor de los atracos jamás ideado.",
+            "year":"2017-2021"
+        }
+    ]
+
+}
+}
